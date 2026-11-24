@@ -1,0 +1,74 @@
+# ───── Android / Gradle ─────
+*.iml
+.gradle/
+/local.properties
+**/local.properties
+build/
+**/build/
+.cxx/
+.externalNativeBuild/
+captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+output.json
+
+# Clés de signature et secrets
+*.jks
+*.keystore
+google-services.json
+keystore.properties
+
+# On garde le wrapper Gradle (indispensable pour builder)
+!gradle/wrapper/gradle-wrapper.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+
+# ───── Serveur Java (Maven / Spring Boot) ─────
+target/
+!**/.mvn/wrapper/maven-wrapper.jar
+*.log
+hs_err_pid*
+
+# Configuration locale et secrets du serveur
+.env
+*.env
+application-local.yml
+application-local.properties
+application-secret.*
+
+# Données générées par le serveur
+uploads/
+storage/
+data/*.db
+*.db
+*.sqlite
+*.sqlite3
+*.mv.db
+
+# Certificats TLS et clés privées
+*.pem
+*.key
+*.p12
+*.crt
+
+# ───── IDE ─────
+.idea/
+*.iws
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+nbproject/
+
+# ───── Système ─────
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# ───── Divers ─────
+*.tmp
+*.swp
