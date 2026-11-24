@@ -4,7 +4,7 @@
 
 Hive centralise les annonces officielles, les discussions de classe et le partage de fichiers sur le réseau interne de l'école. L'étudiant ouvre l'application Android, se connecte avec son **matricule** et se retrouve automatiquement dans le groupe de sa salle.
 
-> Projet d'école, développé par une équipe de 3. Client : application **Android (Java)**. Serveur : **PC de l'école**.
+> Projet d'école.
 
 ---
 
@@ -199,4 +199,4 @@ matricule,nom,prenom,filiere,niveau,salle
 
 ## Licence
 
-À définir (par défaut : usage académique).
+Usage academique
