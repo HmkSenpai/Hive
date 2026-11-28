@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hive</string>
+    <string name="test_title">Hive</string>
+    <string name="test_subtitle">Interface de test</string>
+    <string name="test_count">%1$d</string>
+    <string name="test_count_initial">0</string>
+    <string name="test_increment">Incrémenter</string>
+    <string name="test_reset">Réinitialiser</string>
+</resources>
